@@ -5,7 +5,14 @@ Fecha: "[[2023-09-07]]"
 ---
 # 📚 Apuntes
 
-[[PP T 1]]
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Título,
+	Fecha as Fecha
+FROM "FIC"
+WHERE Asignatura = [[Paradigmas da Programación]] and file.name != "Paradigmas da Programación"
+SORT Fecha ASC
+```
 
 # 💾 Asignatura
 

@@ -6,8 +6,14 @@ Fecha: "[[2023-09-07]]"
 
 # 📚 Apuntes
 
-[[EC T 1]]
-
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Título,
+	Fecha as Fecha
+FROM "FIC"
+WHERE Asignatura = [[Estrutura de Computadores]] and file.name != "Estrutura de Computadores"
+SORT Fecha ASC
+```
 
 # 💾 Asignatura
 
@@ -25,7 +31,8 @@ Non hai nota mínima
 		- MARTES 11:30-13:30
 		- MÉRCORES 10:30-11:30 / 12:30-13:30
 
-* 
+* basilio.fraguela@udc.gal
+	* 
 
 ##### Libros
 * Patterson, D. A. y Hennessy, J. L. (2020). Computer Organization and

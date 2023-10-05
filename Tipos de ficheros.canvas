@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"b194cc641af44dcf","x":-66,"y":-426,"width":250,"height":60,"type":"text","text":"regulares (-)"},
+		{"id":"acde5a7484297dba","x":255,"y":-319,"width":250,"height":60,"type":"text","text":"directorio (d)"},
+		{"id":"dd45a808390c86c4","x":255,"y":-220,"width":250,"height":60,"type":"text","text":"fichero de dispositivo"},
+		{"id":"ecbad60f4804ae02","x":573,"y":-272,"width":250,"height":60,"type":"text","text":"carácter (c) (tty)"},
+		{"id":"e8e634e9b74a6479","x":549,"y":-168,"width":250,"height":60,"type":"text","text":"blupue (b)"},
+		{"id":"23881993accee337","x":255,"y":140,"width":250,"height":60,"type":"text","text":"socket (s)"},
+		{"id":"db8d72408e87a822","x":255,"y":40,"width":250,"height":60,"type":"text","text":"pipe (p)"},
+		{"id":"555e3ee17ce9275d","x":255,"y":-75,"width":250,"height":60,"type":"text","text":"link simbólico (l)"},
+		{"id":"53a0f32e93020a13","x":-66,"y":-108,"width":250,"height":60,"type":"text","text":"especiales"},
+		{"id":"b8c895d3e80de1ea","x":-460,"y":-160,"width":250,"height":60,"color":"6","type":"text","text":"Ficheros"}
+	],
+	"edges":[
+		{"id":"b2c1db2b13719aab","fromNode":"b8c895d3e80de1ea","fromSide":"right","toNode":"b194cc641af44dcf","toSide":"left"},
+		{"id":"914688f2e35c8d64","fromNode":"b8c895d3e80de1ea","fromSide":"right","toNode":"53a0f32e93020a13","toSide":"left"},
+		{"id":"e5d3a27f54263668","fromNode":"53a0f32e93020a13","fromSide":"right","toNode":"acde5a7484297dba","toSide":"left"},
+		{"id":"459c45845ef213c1","fromNode":"53a0f32e93020a13","fromSide":"right","toNode":"dd45a808390c86c4","toSide":"left"},
+		{"id":"d8d9b74a4625b50f","fromNode":"dd45a808390c86c4","fromSide":"right","toNode":"ecbad60f4804ae02","toSide":"left"},
+		{"id":"a0e45d0e5b93d21f","fromNode":"dd45a808390c86c4","fromSide":"right","toNode":"e8e634e9b74a6479","toSide":"left"},
+		{"id":"a8a8f91fd8f5c320","fromNode":"53a0f32e93020a13","fromSide":"right","toNode":"555e3ee17ce9275d","toSide":"left"},
+		{"id":"83ecf092b1c61bda","fromNode":"53a0f32e93020a13","fromSide":"right","toNode":"db8d72408e87a822","toSide":"left"},
+		{"id":"6e4d4aed7b85c90e","fromNode":"53a0f32e93020a13","fromSide":"right","toNode":"23881993accee337","toSide":"left"}
+	]
+}

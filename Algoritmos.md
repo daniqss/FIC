@@ -1,15 +1,21 @@
 ---
 tags:
-  - Algoritmos 2º
-Fecha: "[[2023-09-07]]"
+  - 2º
+Fecha: "[[2023-09-25]]"
+Asignatura: "[[Algoritmos]]"
 ---
 https://campusvirtual.udc.gal/course/view.php?id=22291
 
 # 📚 Apuntes
 
-[[Algoritmos P 1]]
-[[Algoritmos T 1]]
-[[Algoritmos P 2]]
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Título,
+	Fecha as Fecha
+FROM "FIC"
+WHERE Asignatura = [[Algoritmos]] and file.name != "Algoritmos"
+SORT Fecha ASC
+```
 
 # 💾 Asignatura
 
@@ -23,6 +29,7 @@ https://campusvirtual.udc.gal/course/view.php?id=22291
 ##### Profesores
 * Santiago Jorge (práctica)
 * Alberto Valderruten (teoría)
+* jose.casanova.crespo@udc.es (prácticas)
 ##### Libros
 * Fundamentos de algoritmia, Brassard y Bratley
 

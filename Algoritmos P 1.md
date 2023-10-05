@@ -1,8 +1,8 @@
 ---
-Fecha: "[[2023-09-11]]"
 tags:
-  - Algoritmos
   - 2º
+Fecha: "[[2023-09-25]]"
+Asignatura: "[[Algoritmos]]"
 ---
 
 ### Pseudocódigo

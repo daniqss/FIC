@@ -15,6 +15,8 @@ Consiste en comenzar el diseño identificando las estructuras básicas de
 datos del programa, su comportamiento y sus interacciones. El programa
 se construye combinando entre sí estos bloques básicos.
 
+## 
+
 # Clases
 
 ```java
@@ -84,6 +86,8 @@ responder siempre lo mismo.
 #### Uso de nulos
 x.equals(null) debe devolver false para cualquier valor x no
 nulo.
+
+
 
 
 

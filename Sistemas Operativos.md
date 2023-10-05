@@ -4,6 +4,16 @@ tags:
   - 2º
 Fecha: "[[2023-09-07]]"
 ---
+# 📚 Apuntes
+
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Título,
+	Fecha as Fecha
+FROM "FIC"
+WHERE Asignatura = [[Sistemas Operativos]] and file.name != "Sistemas Operativos"
+SORT Fecha ASC
+```
 
 # 💾 Asignatura
 
@@ -18,8 +28,3 @@ Fecha: "[[2023-09-07]]"
 
 # 📊 Notas
 
-
-# 📚 Apuntes
-
-[[SO T 1]]
-[[SO P 1]]

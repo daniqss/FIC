@@ -1,6 +1,7 @@
 ---
 tags:
   - 2º
+  - EC
 Fecha: "[[2023-09-13]]"
 Asignatura: "[[Estrutura de Computadores]]"
 ---
@@ -23,11 +24,12 @@ $$
 T_{\text{cpu}} = T_{\text{user}} + T_{s.o.}
 $$
 
-### Tiempo de ejecución de CPU
 
 ### Tiempo de ejecución de CPU
 $$
 \text{Tiempo de CPU} = \text{ciclos de CPU} \times \text{tiempo de ciclo}\\
+$$
+$$
 \text{Tiempo de CPU} = \frac{\text{ciclos de CPU}}{\text{frecuencia de reloj}}
 $$
 
@@ -37,3 +39,4 @@ ejecuta. El número de ciclos de reloj requerido por un programa es:
 $$
 \text{ciclos de CPU} = \text{instrucciones} \times \text{media de ciclos por instrucción}
 $$
+

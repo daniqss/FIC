@@ -5,6 +5,16 @@ tags:
 Fecha: "[[2023-09-07]]"
 Asignatura: "[[Deseño de Software]]"
 ---
+# 📚 Apuntes
+
+```dataview
+TABLE WITHOUT ID
+	link(file.link, title) as Título,
+	Fecha as Fecha
+FROM "FIC"
+WHERE Asignatura = [[Deseño de Software]] and file.name != "Deseño de Software"
+SORT Fecha ASC
+```
 
 # 💾 Asignatura
 
@@ -14,7 +24,7 @@ Asignatura: "[[Deseño de Software]]"
 ##### Nota mínima: 
 * 4 examen e prácticas
 ##### Profesores
-* Prácticas: jose.casanova.crespo@udc.es
+
 ##### Recursos
 * https://github.com/emosqueira/Ejercicios-DS
 
@@ -25,7 +35,5 @@ Asignatura: "[[Deseño de Software]]"
 * 4:
 * 5:
 
-# 📚 Apuntes
 
-[[DS P 1]]
-[[DS T 1]]
+
