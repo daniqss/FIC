@@ -1,10 +1,11 @@
 ---
 tags:
   - 2º
-Fecha: "[[2023-09-25]]"
-Asignatura: "[[Algoritmos]]"
+Fecha: "[[2023-10-24]]"
+Asignatura: "[[]]"
 ---
 https://campusvirtual.udc.gal/course/view.php?id=22291
+
 
 # 📚 Apuntes
 
@@ -13,7 +14,7 @@ TABLE WITHOUT ID
 	link(file.link, title) as Título,
 	Fecha as Fecha
 FROM "FIC"
-WHERE Asignatura = [[Algoritmos]] and file.name != "Algoritmos"
+WHERE Asignatura = [[Algoritmos]] and file.name !="Algoritmos"
 SORT Fecha ASC
 ```
 
@@ -25,6 +26,7 @@ SORT Fecha ASC
 * 10% TGR
 * 20% Examen Prácticas
 * 50% Examen Teoría
+No hay nota mínima
 
 ##### Profesores
 * Santiago Jorge (práctica)
@@ -33,6 +35,11 @@ SORT Fecha ASC
 ##### Libros
 * Fundamentos de algoritmia, Brassard y Bratley
 
+![[presentacion2324.pdf]]
+
 # 📊 Notas
+
+Práctica 1: 9.5
+TGR 1: 3
 
 

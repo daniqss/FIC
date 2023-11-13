@@ -13,7 +13,7 @@ TABLE WITHOUT ID
 	Fecha as Fecha
 FROM "FIC"
 WHERE Asignatura = [[Deseño de Software]] and file.name != "Deseño de Software"
-SORT Fecha ASC
+SORT Fecha DESC
 ```
 
 # 💾 Asignatura

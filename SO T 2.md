@@ -14,3 +14,14 @@ El término inglés _**endianness**_ (en español **extremidad** y a veces **end
 
 ### Fragmentación de memoria
 * **Fragmentación Interna**: Memoria malgastada debido a la asignaciónn en bloques de n bytes y las peticiones de procesos que no son exactamente múltiplos de n bytes.
+
+### Arquitectura 64 bits
+No son realmente 64 bits. Son 48 bits virtuales y 52 bits físicos.
+
+Los 16 bits más significativos de una dirección virtual (recuerde, sólo 48 bits son significativos) son todos ceros o todos unos. Son iguales al bit más significativo de la dirección virtual de 48 bits.
+
+
+## Page replacement, fetching and replacement
+
+
+

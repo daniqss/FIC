@@ -19,6 +19,8 @@ SORT Fecha ASC
 
 ##### Porcentaje:
 * 40% Examen Problemas
+	* 20% procesador segmentado
+	* 20% memoria
 * 20% Prácticas de laboratorio
 * 40% Exame final (Tema 1, )
 ##### Nota mínima: 

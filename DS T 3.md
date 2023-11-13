@@ -6,6 +6,8 @@ Asignatura: "[[Deseño de Software]]"
 ---
 # Herencia
 
+![[T3-Propiedades_basicas-handout.pdf]]
+
 Todas as clases heredan da clase Object. As clases q heredan doutras ou q as teñen como atributos (composición) teñen dentro aos outros obxetos e chámase a todos os constructores. 
 
 ### Tipos de herencia
@@ -43,4 +45,27 @@ no tiene implementacion y necesita una clase q implemente sus metodos. Una clase
 
 ![[2023-10-04_10-48.png]]
 
+
+## Colecciones
+
+```java
+Dog dog = new Dog();
+Cat cat = new Cat();
+
+ArrayList dogs = new ArrayList();
+ArrayList cats = new ArrayList();
+
+dogs.add(dog);
+dogs.add(cat);
+// ArrayList almacena Objects, por lo que puedes meter un gato en una coleccion que pretendías que fuese de perros
+
+Dog dog2 = (Dog)dogs.get(0)
+Dog dog3 = (Dog)dogs.get(1)
+// Peta porque era un gato no un perro
+
+
+```
+
+
+# Polimorfismo paramétrico o genericidad
 

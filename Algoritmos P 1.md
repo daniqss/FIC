@@ -2,7 +2,7 @@
 tags:
   - 2º
 Fecha: "[[2023-09-25]]"
-Asignatura: "[[Algoritmos]]"
+Asignatura: "[[FIC/Algoritmos]]"
 ---
 
 ### Pseudocódigo

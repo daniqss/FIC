@@ -1,7 +1,7 @@
 ---
 tags:
-  - 2º
-Fecha: 2023-09-22
+  - "#2º"
+Fecha: "[[2023-09-22]]"
 Asignatura: "[[Estrutura de Computadores]]"
 ---
 ![[EC-ES-Ejercicios-T1.pdf]]

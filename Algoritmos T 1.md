@@ -4,7 +4,10 @@ tags:
 Fecha: "[[2023-09-14]]"
 Asignatura: "[[Algoritmos]]"
 ---
-## Objetivo
+# Resolución de recurrencias
+![[Algoritmos_23_24_PRESENTACION (1).pdf]]
+
+# Complejidad
 
 * T(n) : tiempo de ejecución
 Estudiaremos n->∞, el comportamiento asintotico.
