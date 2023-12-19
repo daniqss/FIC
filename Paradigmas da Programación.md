@@ -25,4 +25,11 @@ SORT Fecha ASC
 
 # 📊 Notas
 
+### Entrega 1
+
+9.7
+### Entrega 2
+
+6.9
+### Entrega 3
 

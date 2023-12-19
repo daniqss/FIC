@@ -43,3 +43,6 @@ Kaufmann
 
 # 📊 Notas
 
+Parcial 1: 0.73/2
+Parcial 2:
+Práctico: 
