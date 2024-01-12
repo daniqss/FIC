@@ -5,6 +5,10 @@ tags:
 Fecha: "[[2023-09-13]]"
 Asignatura: "[[Estrutura de Computadores]]"
 ---
+![[EC1-ES-Rendimiento.pdf]]
+
+![[EC-ES-Ejercicios-T1.pdf]]
+
 ### Tiempo de respuesta
 Tiempo entre el inicio y el final de una tarea. Para maximizar el rendimiento se minimiza el tiempo de ejecución de una tarea:
 $$
@@ -37,6 +41,6 @@ $$
 El compilador genera las instrucciones para ejecutar y el procesador las
 ejecuta. El número de ciclos de reloj requerido por un programa es:
 $$
-\text{ciclos de CPU} = \text{instrucciones} \times \text{media de ciclos por instrucción}
+\text{ciclos de CPU} = \text{instrucciones} \times \text{media de ciclos por instruccion}
 $$
 

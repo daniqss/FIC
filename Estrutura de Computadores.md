@@ -22,7 +22,7 @@ SORT Fecha ASC
 	* 20% procesador segmentado
 	* 20% memoria
 * 20% Prácticas de laboratorio
-* 40% Exame final (Tema 1, )
+* 40% Exame final (Tema 1, 4, 6, 7)
 ##### Nota mínima: 
 Non hai nota mínima
 
@@ -44,5 +44,18 @@ Kaufmann
 # 📊 Notas
 
 Parcial 1: 0.73/2
-Parcial 2:
-Práctico: 
+Parcial 2: 1.3/2
+Práctico: 1.9/2
+   
+# 📜 Examenes
+
+```dataviewjs
+
+const files = app.vault.getFiles().filter(file => ((file.extension == 'pdf') && file.path.includes("ec/Examenes")));
+
+dv.list(files.map(f => dv.fileLink(f.path)))
+dv.sort
+```
+
+
+

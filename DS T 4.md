@@ -20,5 +20,11 @@ Asignatura: "[[Deseño de Software]]"
 
 ### Principio de Segregación de Interfaces
 
+# Patrones de diseño
+
+![[T6-Patrones_diseno-handout.pdf]]
+
+
+
 
 

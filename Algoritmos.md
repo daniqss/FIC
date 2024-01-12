@@ -39,7 +39,13 @@ No hay nota mínima
 
 # 📊 Notas
 
-Práctica 1: 9.5
+Prácticas: 9
 TGR 1: 3
+TGR 2: 9
+TGR 3: 10
+Teórico 1: 7
+Teórico 2: 6
 
+TOTAL = 0.9 + 0.65 + 0.73 = 2.28 / 3
+Necesito 2.72 / 7 para aprobar
 
