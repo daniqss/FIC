@@ -322,9 +322,41 @@ let rev l = rev_append l [];;
 let append' l1 l2 = rev_append (rev l1) l2;;
 ```
 
-#### comb recursiva terminal
+### Otras
 
 ```ocaml
+
+```
+
+#### Varias funciones recursivas terminales
+
+
+```ocaml
+let rec divide = function (*Divide una lista*)
+	[] -> [], []
+	| h::[] -> [h], []
+	| h1::h2::t -> let t1, t2 = divide t
+			       in (h1::t1, h2::t2)
+;;
+
+let divide_ter l =
+  let rec aux l acc1 acc2 = match l with
+    [] -> acc1, acc2
+    | h::[] -> h::acc1, acc2
+    | h1::h2::t -> aux t (h1::acc1) (h2::acc2)
+
+  in aux l [] []
+;;
+
+let divide_ter l =
+  let rec aux l acc1 acc2 =
+    match l with
+    | [] -> List.rev acc1, List.rev acc2
+    | h::[] -> List.rev (h::acc1), List.rev acc2
+    | h1::h2::t -> aux t (h1::acc1) (h2::acc2)
+  in aux l [] []
+;;
+
 let comb fn list =
 	let rec aux fn list acc = match list with
 		| [] -> acc
